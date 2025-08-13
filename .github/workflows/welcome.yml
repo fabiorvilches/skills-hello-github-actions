@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 welcome-workflow
-      - run: gh pr comment "$PR_URL" --body "Welcome to my WORLD!"
+      - run: gh pr comment "$PR_URL" --body "Welcome to my WORLD AGAIN!"
 main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
